@@ -1,0 +1,13 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Includes\\": "includes/"
+        },
+        "files": [
+            "configs/config.php"
+        ]
+    }
+}
